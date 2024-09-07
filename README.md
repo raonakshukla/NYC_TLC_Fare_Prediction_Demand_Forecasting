@@ -1,7 +1,7 @@
 # Team 14 Metric Marvins Group Project
 
 ### Project Name: Large-Scale Data Analytics on NYC Taxi Limousine Commission(TLC) Data for Fare Prediction and Demand Forecasting
-
+Urban transportation is facing unprecedented challenges: traffic congestion, pollution, and inefficient resource allocation. Taxi and ride-sharing companies generate massive amounts of data on trip patterns, driver behavior, and rider preferences. This study is an effort to provide one platform solution by leveraging these datasets to optimize urban mobility, improve service efficiency, and ultimately create a more sustainable transportation network. The intent behind the project is to empower management in data-driven decision-making. By harnessing the power of data, companies can make smarter decisions, optimize operations, and gain a competitive edge in the marketplace. Weekly demand forecasting is performed using SARIMA models, which scored the lowest on the Akaike Information Criterion (AIC) at 1390, compared to other models. The study aims to predict base fares using various regression models, employing both global and local approaches. Additionally, it will examine the performance of distributed algorithms, with a primary focus on computational power (i.e., the number of available cores) and the size of the data. The Root Mean Square Error(RSME) obtained is the least for 16 partitions (9.34), which is very close to the global model (9.10). However, the time required to train and calculate RSME is 8.21 times less than the global model.
 #### File Structure
     ├── Scale-up-experiments *** The codes in this directory took reference from [1] ***
     │   │
